@@ -8,24 +8,14 @@ This project adapts Greedy Coordinate Gradient (GCG), originally designed to con
 
 Six open-weight language models were benchmarked against this adapted attack, evaluated within a simulated organisation governed by an explicit written SOC triage playbook, across 50 scenarios each built on a genuinely high-severity underlying security event. Two candidate defences, perplexity-based input filtering and system prompt hardening, were subsequently evaluated against the confirmed successful attacks.
 
-Repository Structure: 
 
-environment/ — SOC playbook, synthetic employee database, alert template logic
-
-scenarios/ — full 50-scenario dataset
-
-models/ — testing notebooks for all six evaluated models
-
-defence_evaluation/ — perplexity filtering and system prompt hardening evaluation scripts
 
 
 Clone the repository and install dependencies:
 
-git clone https://github.com/SahilPatil266/field-constrained-gcg-soc-triage.git
-
-cd field-constrained-gcg-soc-triage
-
-pip install -r requirements.txt
+git clone https://github.com/SahilPatil266/field-constrained-gcg-soc-triage.git  
+cd field-constrained-gcg-soc-triage  
+pip install -r requirements.txt  
 
 Note: GPU access (CUDA-compatible) is required to run the GCG optimisation notebooks.
 
