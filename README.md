@@ -22,7 +22,3 @@ Note: GPU access (CUDA-compatible) is required to run the GCG optimisation noteb
 Ethics:
 
 This project was conducted under an ethics approval waiver granted by WMG, University of Warwick. All experiments were conducted against a fictional, synthetic organisation and synthetic data; no real individuals, organisations, or production systems were targeted or affected. See the dissertation's Appendix B for the ethics waiver confirmation.
-
-Citation
-
-Patil, S. (2026) Field-Constrained Gradient-Based Prompt Injection Against LLM-Based Security Alert Triage. MSc Dissertation, University of Warwick.
